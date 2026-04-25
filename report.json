@@ -1,0 +1,99 @@
+{
+  "empresa": "Clínica Dental Barcelona Sonríe",
+  "web": "https://barcelonasonrie.com",
+  "sector": "salud",
+  "builder": "gutenberg",
+  "fecha": "2026-04-25T12:45:44.727Z",
+  "templateVersion": "v8-surgical",
+  "aiModel": "catalog-v3-surgical",
+  "aiCost": "$0.00",
+  "cssPersonalized": true,
+  "cssApproach": "catalog-v3-surgical",
+  "verify": {
+    "passed": true,
+    "issues": [],
+    "warnings": [
+      "V2: 154 opacity:0 vs 4 animations — posible contenido oculto"
+    ],
+    "sizeKB": 646,
+    "checksRun": 13,
+    "checksPassed": 13
+  },
+  "cssSelectorsUsed": {
+    "sections": ".wp-block-group,.wp-block-cover",
+    "cards": ".wp-block-column:has(img),.wp-block-media-text",
+    "buttons": ".wp-block-button__link",
+    "nav": "header.fixed,header.sticky"
+  },
+  "siteAnalysis": {
+    "builder": "gutenberg",
+    "fonts": [
+      "inherit",
+      "Helvetica",
+      "Arial",
+      "Arial Narrow",
+      "HelveticaNeue"
+    ],
+    "colors": [
+      "#7a00df",
+      "#ddd",
+      "#007cba",
+      "#006ba1",
+      "#005a87"
+    ],
+    "hasStickyHeader": true,
+    "hasTestimonials": true,
+    "hasSlider": true,
+    "hasGallery": true,
+    "imgCount": 63,
+    "formCount": 4
+  },
+  "improvements": [
+    "URLs relativas → absolutas (base: https://barcelonasonrie.com)",
+    "CSS catálogo v3 quirúrgico — gutenberg (8 efectos, ~1.3KB)",
+    "Banner demo (inline) + barra progreso",
+    "Schema.org JSON-LD (MedicalBusiness)",
+    "Open Graph tags",
+    "37 imgs lazy loading",
+    "Bunny Fonts (GDPR)"
+  ],
+  "wowEffects": [
+    "E1 — Scroll fade secciones (opacity:0.3 failsafe)",
+    "E2 — Card hover (selectores explícitos por widget)",
+    "E3 — Button elevate (solo CTAs)",
+    "E4 — Progress bar scroll (elemento propio)",
+    "E5 — Image zoom (excluye image-box)",
+    "E6 — Glass header (solo si sticky)",
+    "E7 — Footer gradient (solo ::before)",
+    "E8 — Globals (overflow, selection, reduced-motion)",
+    "Fallback IntersectionObserver (opacity:0.3)",
+    "Banner demo + WhatsApp (estilos inline)"
+  ],
+  "preservedContent": "HTML original 100% intacto",
+  "extractedData": {
+    "phone": "776709910",
+    "email": "No encontrado",
+    "address": "Barcelona",
+    "jsonLdFound": false
+  },
+  "performance": {
+    "lazyLoading": 37,
+    "webpConversion": 0,
+    "fontOptimization": "bunny-fonts",
+    "trackingRemoved": true
+  },
+  "seo": {
+    "metaTags": {
+      "openGraph": "added_missing",
+      "twitterCard": "added",
+      "geoTags": "added"
+    },
+    "schemaOrg": {
+      "webSite": "added",
+      "faqPage": "in_nosotros_page"
+    },
+    "content": {
+      "altTexts": "43 fixed"
+    }
+  }
+}
